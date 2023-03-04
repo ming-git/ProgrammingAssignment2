@@ -36,7 +36,3 @@ cacheSolve <- function(x, ...) {
         x$setsolve(s)
         s
 }
-
-m1 <- matrix(c(2,3,4,5,6,7,8,9,0),3,3)
-m1
-cacheSolve(m1)
